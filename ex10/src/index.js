@@ -1,12 +1,11 @@
-function main() 
-{
-    var lastName="Doe";
-    var firstLetterOfLastName="";
-    var firstLetterOfLastName=lastName[0];
-
+function main() {
+    // only change code below this line
+    var lastName = "Doe";
+    var firstLetterOfLastName = " ";
+    firstLetterOfLastName = lastName[0];
+    // only change code above this line
     return firstLetterOfLastName;
-
-
-}
-console.log(main());
-module.exports=main;
+    }
+    
+    console.log(main());
+    module.exports = main;
